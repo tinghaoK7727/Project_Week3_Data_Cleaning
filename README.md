@@ -11,7 +11,7 @@ Step by step:
 - Prepare presentation slides 
 
 Main data issues and cleaning solutions:
-- Abnormal ID format >> tackled by reformating the original data from excel
+- Abnormal ID format >> tackled by using set_option()
 - Mojibake within "Text" column >> fixed with ftfy.fix_text() method
 - Redundant columns found >> drop these columns
 - NaN values >> 
