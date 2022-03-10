@@ -12,14 +12,16 @@ Step by step:
 
 Main data issues and cleaning solutions:
 - Abnormal ID format >> tackled by reformating the original data from excel
-- Mojitake within "Text" column >> fixed with ftfy.fix_text() method
+- Mojibake within "Text" column >> fixed with ftfy.fix_text() method
 - Redundant columns found >> drop these columns
 - NaN values >> 
 - Duplicated values >>
 - Outliers >>
 
 Obstacles encountered:
--    
+- Not easy to remove mojibake
+- Quite obscure to define outliers and which data to drop or replaced
+- Difficult to build conclusions from manipulated data 
 
 Results:
-- 
+- XX is related to YY (correlation if any)
